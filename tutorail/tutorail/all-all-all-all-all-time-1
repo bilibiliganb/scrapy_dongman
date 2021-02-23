@@ -1,0 +1,1282 @@
+
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>全部动漫 - AGE动漫</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="动漫目录,动漫下载">
+    <meta name="description" content="动漫目录 动漫在线 动漫下载">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsjinfu.com/age/static/css/common.css?ver=202101262059">
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsjinfu.com/age/static/css/catalog.css?ver=202101262059">
+    <script type="text/javascript" src="https://s3.pstatp.com/cdn/expire-1-M/jquery/1.12.4/jquery.min.js?ver=202101262059"></script>
+    <script type="text/javascript" src="https://cdn.jsjinfu.com/age/static/js/history.js?ver=202101262059"></script>
+
+  </head>
+  
+  <body>
+    <div id="root">
+      <div id="top">
+        <div id="logo">
+          <a href="/" title="AGE动漫">AGE动漫</a></div>
+        <div class="loginout">
+          <span class="svg_title svg_title_user"></span>
+          <a class="loginout_btn2" href="/accounts/profile/">获取中...</a>
+
+          <script>
+            __html_set_username();
+          </script>
+          
+        </div>
+      </div>
+      <header id="nav">
+        <a class="nav_button " href="/">首页</a>
+        <a class="nav_button  nav_button_current " href="/catalog/all-all-all-all-all-time-1">目录</a>
+        <a class="nav_button " href="/recommend">每日推荐</a>
+        <a class="nav_button " href="/update">最近更新</a>
+        <a class="nav_button " href="/rank">排行榜</a>
+        <form id="top_search_from" class="search_form" action="/search" method="get" onsubmit="return on_top_search_form();">
+          <input id="top_search_input" class="search_input" name="query" wrap="SOFT" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="输入关键字" value=""></input>
+          <input class="search_submit" class="" type="submit" value="">
+          <input type="hidden" name="page" value="1"></form>
+
+        <script type="text/javascript">function on_top_search_form() {
+            var value = document.getElementById("top_search_input").value;
+            if (value == null || value == "") {
+              alert("请输入搜索关键字");
+              return false;
+            }
+          }
+          var top_search_input = document.getElementById("top_search_input");
+          function onfocus() {
+            top_search_input.classList.add("search_input_ex");
+          }
+          function onfocusout() {
+            top_search_input.classList.remove("search_input_ex");
+          }
+          if (top_search_input.addEventListener) {
+            top_search_input.addEventListener('focus', onfocus);
+            top_search_input.addEventListener('focusout', onfocusout);
+          } else {
+            top_search_input.onfocus = onfocus;
+            top_search_input.onfocusout = onfocusout;
+          }</script>
+      </header>
+      <div id="container">
+        <div class="spaceblock"></div>
+        <div class="baseblock">
+          <div class="blockcontent">
+
+            <!-- 目录 -->
+            <ul class="search-list" id="search-list">
+              <script src="https://cdn.jsjinfu.com/age/static/js/s_catalog.js?ver=202101262059"></script>
+            </ul>
+
+            <script>
+              function __make_m_catalog2_scroll(){
+                $(".search-tag").each(function(){
+                  const ep0_pos = $(this).children("li")[0].offsetLeft;
+                  const ep1_pos = $(this).children("li")[1].offsetLeft;
+                  const ep_pos = $(this).find("li.on")[0].offsetLeft;
+                  $(this).scrollLeft(ep_pos - ep0_pos - ep1_pos);
+                });
+              }
+              __make_m_catalog2_scroll();
+            </script>
+            
+          </div>
+        </div>
+        <div class="baseblock">
+          <div class="blockcontent" style="position: relative;">
+            <span id="result_count" class="asciifont">2838纪录</span>
+            <div style="text-align: center; line-height: 36px;">
+              
+			<li><a class="pbutton pbutton_current asciifont" href="javascript:void(0);">首页</a></li>
+			
+			<li><a class="pbutton pbutton_current asciifont" href="javascript:void(0);">1</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/catalog/all-all-all-all-all-time-2">2</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/catalog/all-all-all-all-all-time-3">3</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/catalog/all-all-all-all-all-time-4">4</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/catalog/all-all-all-all-all-time-5">5</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/catalog/all-all-all-all-all-time-6">6</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/catalog/all-all-all-all-all-time-2">下一页</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/catalog/all-all-all-all-all-time-119">尾页</a></li>
+			
+            </div>
+          </div>
+        </div>
+        <div class="baseblock">
+          <div class="blockcontent1">
+            
+        <div class="cell blockdiff2">
+            <a href="/detail/20200059" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H5ceb636f919f4d74a7ccd85e4d371c2dR.jpg" alt="回复术士的重启人生">
+                <span class="newname">第4集</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20200059" class="cell_imform_name">回复术士的重启人生</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">回復術士のやり直し</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">Redo of Healer / 回复术士的重来人生 / Kaifuku Jutsushi no Yarinaoshi</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-13</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">月夜涙</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">奇幻 冒险 后宫</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">TNK</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">《回复术士的重来人生》是由羽贺ソウケソ 月夜泪 创作的漫画。
+回复术士只有治愈的才能。
+被认为一个人什么都做不到的存在。
+不依存别人就无法战斗，正因为是这样的存在所以被利用。
+一直被利用于是来到了这一步。
+在注意到过去的时候已经迟了，我的人生已经完了。
+所以重新来过。
+隐藏气息，不能让任何人知道我恢复了意识。装作十分愚钝，这也是为了最后最后的胜利。</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20200059">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20200059">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff">
+            <a href="/detail/20210035" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H7351a989a2da485a8ec0ca6229b06e53a.jpg" alt="BEASTARS 第二季">
+                <span class="newname">04:00 第5集</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20210035" class="cell_imform_name">BEASTARS 第二季</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">BEASTARS 2nd Season</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">动物狂想曲 第二季</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-06</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">板垣巴留</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">奇幻 校园 爱情</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">Orange</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">V动画「动物狂想曲」（BEASTARS）目前公开了第二季PV，该作确认将于2021年1月6日正式开播。
+该作改编于漫画家板垣巴留创作的同名漫画作品， 由Orange负责制作，讲述了一个肉食兽和草食兽共存的世界。
+肉食兽和草食兽共存的世界。在食肉被视为重罪的情况下，全寄宿制的名门高中·却里顿学园发生了学生被吞噬的“食杀事件”。
+在充斥着不安的校园里，戏剧部的怪人·灰狼雷格西过着与其“庞大身躯”和“锐利尖牙”相反的安静生活。但是和小巧的兔子的女学生·春的相遇，打动了雷格西的心。
+“我追求她的心情，是恋爱？还是食欲？”
+他真正遇到的东西，是他自己的本能——</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20210035">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20210035">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff2">
+            <a href="/detail/20200076" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/Hd9d9ed401f904fe2841507c6614aa548K.jpg" alt="苍之骑士团">
+                <span class="newname">01:00 第5话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20200076" class="cell_imform_name">苍之骑士团</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">オルタンシア・サーガ</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-06</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">奇幻 冒险 战斗</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">LIDENFILMS</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">TV动画《苍之骑士团》改编自同名游戏，该游戏是世嘉继《锁链战纪》之后推出的第二个大型手游，以中世纪时代为背景，讲述了一个王国叛乱，主人公与众伙伴为维护和平而踏上征途的史诗传奇。
+《苍之骑士团》具有庞大的世界观和剧情故事，容量堪比当季新番。除了以玩家为主视角呈现的主线剧情奥尔坦西亚传，还有以玩家之外的立场以及不同时间轴来讲述的外传剧情，而玩家每获得一个新的伙伴，都将解锁这个伙伴的骑士传，体验伙伴独有的回忆剧情。奥尔坦西亚传、骑士传、外传三格不同视角，编织出了一个关于亲情、友情、家国、背叛的王国史诗传奇。</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20200076">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20200076">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff">
+            <a href="/detail/20210034" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H31befe3e11344cb2a15c8f3f6cde90c1H.jpg" alt="装甲娘战机">
+                <span class="newname">00:30 第5话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20210034" class="cell_imform_name">装甲娘战机</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">装甲娘戦機</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-06</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">科幻 百合 战斗</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">studio A-CAT</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">电视动画《装甲娘战机》于2019年3月23日-24日举办的AnimeJapan 2019上宣布动画企划启动，由studio A-CAT负责动画制作，于2021年1月6日播出。
+今天开始我就是狙击手……!?日常被夺走，肢体上装备名为“LBX Unit”的战术兵器的5名少女——“装甲娘”。这些被选中成为转移者的少女们的使命，是对横跨多元世界不断侵蚀、增殖的金属生命体·米梅西斯进行扫荡及歼灭。跨越时空被强加的佣兵生活，那就是得以窥见世界「希望」与「绝望」、赌上性命的修学旅行！</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20210034">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20210034">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff2">
+            <a href="/detail/20210033" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H7add457bd0c643448d71184b44624a7cq.jpg" alt="ICHU偶像进行曲">
+                <span class="newname">23:30 第5话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20210033" class="cell_imform_name">ICHU偶像进行曲</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">アイ★チュウ</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-06</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">偶像 歌舞 女性向</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">Lay-duce</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">视动画《ICHU偶像进行曲》改编自Liber Entertainment发行的同名偶像恋爱音乐手游，于2019年4月动画化决定。
+29位日本知名声优演绎的偶像预备生“ICHU”展开互动和恋爱剧情，让这些个性不同的ICHU们成为真正的偶像。不仅能听到声优们苏苏的日常会话，舞台LIVE更是萌燃到爆~多位女性向画师绘制精美原画，每个偶像组合都有独特风格。</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20210033">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20210033">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff">
+            <a href="/detail/20190127" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H600b6980c0f649c4934522a904689b0ea.jpg" alt="Re：从零开始的异世界生活 第二季">
+                <span class="newname">23:00 第18话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20190127" class="cell_imform_name">Re：从零开始的异世界生活 第二季</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">Re:ゼロから始める異世界生活 2nd season</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2020-07-08</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">長月達平</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">冒险 奇幻 后宫</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">WHITE FOX</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">你们的蕾姆要回来啦！《从零开始的异世界生活》第二季制作在即！
+《RE：从零开始的异世界生活》这部动漫可以说是非常经典的，这部动漫也是B站上第一部播放量过亿的动漫。其中的蕾姆更是大众心目中公认的萌王，唯一可惜的是，这部动漫在第一季出完之后就一直没有了消息。
+按照这个时间发布消息的话，如果顺利的话，预计2019年我们就可以看到了，最晚也不会超过四月。让我们一起期待这部动漫吧！</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20190127">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20190127">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff2">
+            <a href="/detail/20210046" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H2ecb171de6af4657a01ddda08a6bf759u.jpg" alt="魔术士欧菲流浪之旅 基姆拉克篇">
+                <span class="newname">21:00 第3话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20210046" class="cell_imform_name">魔术士欧菲流浪之旅 基姆拉克篇</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">魔術士オーフェンはぐれ旅 キムラック編</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">魔术士奥芬的无赖之旅 基姆拉克篇</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-20</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">秋田禎信</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">奇幻 冒险 战斗</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">Studio DEEN</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">最强魔术士，再临。
+「想要与我做个了断的话，就来基姆拉克吧」
+在义姐·阿莎莉留下的话语引导下，奥芬等人前往与魔术士极度对立的基姆拉克。他们突然听到了悲鸣而赶往现场，在累累尸山中遭遇了与敌人果敢战斗的女剑士梅晨。奥芬对她出手相助，作为交换拜托她带领自己前往基姆拉克。奥芬等人消灭了敌人，终于抵达基姆拉克，等在他们面前的是以库欧为首长、执行魔术士暗杀工作的≪死亡教师≫们。
+奥芬最终抵达的《天使与恶魔的真实》是什么？阿莎莉将他带来此地的真正意图又是什么？
+种种思绪交错的壮大物语启动！</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20210046">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20210046">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff">
+            <a href="/detail/20210016" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/Hbe03e428cb70471da567ef8a18a438608.jpg" alt="记录的地平线 第三季">
+                <span class="newname">18:25 第4话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20210016" class="cell_imform_name">记录的地平线 第三季</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">ログ・ホライズン 円卓崩壊</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">记录的地平线 圆桌崩坏</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-13</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">橙乃ままれ</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">冒险 热血 奇幻 战斗</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">Studio DEEN</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">某日，数万名玩家突然被困在了网游《幻境神话》的世界里！在这个怪物与魔法真实存在的异世界里，被称作“冒险者”的玩家们陷入了混乱，冒险者都市“秋叶原”也逐渐沦为不法之地。
+不善交际的城惠，也是这样的冒险者的一员。但决意改善这一切现状的他，和盟友直继、晓、喵太等人组成了公会“记录的地平线”，并以自己的聪明才智为武器，呼吁冒险者们团结一心。冒险者们的自治组织“圆桌会议”就此成立，为秋叶原恢复了秩序与和平。
+通过“圆桌会议”牵头，冒险者们也开始了与游戏世界的原居民“大地人”的交流。贵族代表柯文家的蕾妮希雅公主作为大使出任秋叶原，冒险者与大地人的贵族、商人、普通居民们的交流也愈加活跃。
+自从冒险者们被传送到这个世界的“大灾难”以来，已经过了1年时间。在秋叶原表面上的和平与繁荣之下，却藏着新种怪物“典灾”的袭来、东西方贵族的权力斗争、冒险者之间的贫富差距与观念差异等不安的火种。
+而终于，冒险者们团结的象征“圆桌会议”迎来了分崩离析的危机……</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20210016">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20210016">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff2">
+            <a href="/detail/20200168" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/Ha902ca7d243c4f97a4c02f402b1a5003O.jpg" alt="七原罪 第四季(愤怒的审判)">
+                <span class="newname">17:35 第4话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20200168" class="cell_imform_name">七原罪 第四季(愤怒的审判)</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">七つの大罪 憤怒の審判</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">七大罪 愤怒的审判</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-06</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">鈴木央</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">冒险 奇幻 热血 战斗</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">Studio DEEN</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">电视动画《七大罪：愤怒的审判》改编自铃木央创作的漫画《七大罪》，为该系列电视动画的第四期，于2020年3月宣布了制作决定的消息。
+那还是人与非人的世界未曾分开的远古故事。
+流德雪尔率领的〈光之圣痕〉与魔神族的圣战，激化至波及布里塔尼亚全境。
+取得3个戒禁的艾斯塔罗萨失控暴走，带走了伊丽莎白。金、高瑟、霍克、沙利叶、塔米叶紧随其后，抵达了天空演舞场遗址。
+与此同时，在卡美洛城中，决定成为新魔神王的梅利奥达斯，在暗黑领域的茧中逐步获取戒禁。
+为了拯救梅利奥达斯的灵魂而将自身投入炼狱的班，徘徊于常人决无法存活的瘴气当中。
+逐渐明朗的艾斯塔罗萨的真正身份。崩坏的高瑟之禁咒。纠缠在一起的思绪将去往何方……
+真正的敌人是谁？应讨伐之人为何物？
+对抗“永远的生与永劫的轮回”这一命运，而持续了3000年旅程的梅利奥达斯与伊丽莎白。两人的旅途将会迎来怎样的结局——</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20200168">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20200168">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff">
+            <a href="/detail/20220001" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="https://p.pstatp.com/origin/138a60000e9cb3e9514c1" alt="期待在地下城邂逅有错吗 第四季">
+                <span class="newname">PV</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20220001" class="cell_imform_name">期待在地下城邂逅有错吗 第四季</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">ダンジョンに出会いを求めるのは間違っているだろうか Ⅳ</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2022</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">未播放</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">大森藤ノ</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">冒险 奇幻 后宫 战斗</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">冒险者们向未知发起挑战，诸神因兴奋而热血沸腾， 全世界最为热烈的城市——迷宫都市欧拉丽。
+位于城市中心，给都市带来无限财富与荣华，潜藏众多混沌的大洞穴——“地下城”。
+一只怪物在这深渊中诞生。“这里……是哪里……？”围绕着能够与人交流沟通的龙之少女，都市逐渐被卷入前所未有的异常事态中。
+人与怪物。漫然存在的价值观、常识遭到破坏，冒险者贝尔·克朗尼与女神赫斯缇雅，迎来决断之时。
+这是少年所走过的，女神所记录的，逼近地下城谜团的【眷族物语】——
+第4季制作决定！</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20220001">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20220001">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff2">
+            <a href="/detail/20210054" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H929ecdfac2354e89bb539fa3f43a76ff6.jpg" alt="世界魔女 起飞！">
+                <span class="newname">00:45 第4话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20210054" class="cell_imform_name">世界魔女 起飞！</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">ワールドウィッチーズ 発進しますっ！</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">世界魔女出发</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-12</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">島田フミカネ</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">搞笑 百合 科幻 奇幻</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">Acca effe / 戯画プロダクション</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">电视动画《世界魔女起飞！》是由Acca effe 戯画プロダクション负责制作，2021年放送予定。
+讲述了为了对抗突然出现在世界各地的人类之敌《NEUROI》，世界各国组成联合军队，然而，能够与敌人对抗的只有其中有着特殊魔法之力的少女们！合同501部队，勇敢的502巫女部队展开激烈大冒险，拯救世界。</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20210054">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20210054">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff">
+            <a href="/detail/20210055" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H461c60987f174209a0cd9d77966f7930W.jpg" alt="文豪野犬 汪！">
+                <span class="newname">00:30 第3话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20210055" class="cell_imform_name">文豪野犬 汪！</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">文豪ストレイドッグス わん！</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-12</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">朝霧カフカ</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">搞笑 奇幻 泡面番</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">ノーマッド / BONES</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">电视动画《文豪野犬汪！》改编自朝雾カフカ原作，かないねこ作画的同名漫画作品，于2020年6月19号宣布动画化决定。由BONES及Nomad负责动画制作，2021年1月播出。
+西化的浪潮冲击之下的架空都市「横滨」中，以旧时文豪为名的人们使用着神秘的「异能力」进行着生死决斗的动作大作「文豪野犬」。哭泣、呐喊、以灵魂互相碰撞，奔走在生与死的界限的「武装侦探社」与「港口黑手党」的角色们居然——变成了可爱的Q版人物，装傻、吐槽，根本停不下来！？搞笑衍生动画，在此开幕！</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20210055">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20210055">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff2">
+            <a href="/detail/20200003" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/Hc20ed1208c8242a89cd21abd7e22d4407.jpg" alt="关于我转生变成史莱姆这档事 第二季">
+                <span class="newname">23:30 第28话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20200003" class="cell_imform_name">关于我转生变成史莱姆这档事 第二季</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">転生したらスライムだった件 第2期</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-12</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">伏瀬</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">奇幻 冒险 战斗</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">8bit</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">动画第1期于2018年10月1日至2019年3月25日每周一在TOKYO MX、BS11首播，共25集，外加附带在原作小说中一起发售的5集OAD；第2期前半部分于2021年1月12日播出，后半部分于2021年7月播出。
+主人公利姆露与仰慕他而聚集的众多魔物们所建立的国家“鸠拉·特恩佩斯特国”，经由与邻国的协议及交易，让“人类与魔物共同漫步的国家”这一温柔的理想逐步成形。
+利姆露作为曾是人类的史莱姆当然拥有“对人类的好意”……但这个世界中却存在着明确的“对魔物的敌意”。
+当这不合理的现实摆在眼前时，利姆露将做出选择。为了“什么都不想失去”——
+万众期待的转生喜剧突入暴风的新章！</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20200003">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20200003">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff">
+            <a href="/detail/20210053" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H6dbbecce90e24e4587573d599dbdbe196.jpg" alt="奇蛋物语">
+                <span class="newname">23:00 第4话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20210053" class="cell_imform_name">奇蛋物语</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">ワンダーエッグ・プライオリティ</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">Wonder Egg Priority</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-12</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">奇幻 治愈</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">CloverWorks</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">电视动画《奇蛋物语》是CloverWorks制作的原创作品，于2021年1月起播出。
+14岁少女·大户爱在深夜散步的途中，随着神秘声音的指引，获得了一枚「蛋」。「如果想要改变世界的话」「那么就在现在做出选择」「请相信自己——」「打破这枚蛋——」而在打破「蛋」之后，等待着爱的是……。</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20210053">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20210053">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff2">
+            <a href="/detail/20210032" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H6d2e4a055a4848249fbba5f69871d8ca8.jpg" alt="剧偶像">
+                <span class="newname">20:30 第5话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20210032" class="cell_imform_name">剧偶像</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">ゲキドル</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">演剧偶像 / Gekidol</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-05</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">校园 百合 偶像</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">Hoods Entertainment</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">《剧偶像》是同名多媒体企划的动画作品，由上田繁担任导演，大知庆一郎担任首席编剧，立石圣担任角色设计、总作画监督，今门卓也负责机械设计，Prhythm/epx负责音乐，Hoods Entertainment负责动画制作，2021年1月5日起在AT-X、BS富士播出。作品以自神秘灾害“世界城市同时消失”5年后为舞台，讲述了少女们被使用了“Theatrical Material System”这种3D全息影像的演剧所吸引，以站在舞台上为目标的故事。
+神秘灾害——世界城市同时消失后5年。
+尽管世界处于混乱之中，但仍在一点点地实现复兴。
+在这个世界中，少女们被使用了拥有3D全息影像技术的“Theatrical Material System”的演剧所吸引，朝着光芒闪耀的舞台进发。
+怀揣着各自的想法，现在，舞台的幕布升起。</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20210032">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20210032">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff">
+            <a href="/detail/20170082" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H7aa1870e4ff94a50aa293d3bd3f125c3L.jpg" alt="黑色五叶草">
+                <span class="newname">18:25 第162话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20170082" class="cell_imform_name">黑色五叶草</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">ブラッククローバー</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">Black Clover / 黑色四叶草</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2017-10-03</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">田畠裕基</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">冒险 奇幻 热血 战斗</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">小丑社</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">电视动画《黑色五叶草》改编自日本漫画家田畠裕基原作的同名漫画，在2016年12月18日举办的JUMP FESTA第二日活动上宣布了TV动画化的决定。
+人类险些遭到魔神的毁灭，而拯救了人类的是一位被后世称为“魔法帝”的魔道士，“魔法帝”的故事也成为了传说——
+这是一个魔法意味着全部的世界——
+天生就无法使用魔法的少年，为了证明自己的力量，为了实现与朋友之间的约定，以魔道士的顶点“魔法帝”为目标！</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20170082">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20170082">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff2">
+            <a href="/detail/20200079" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H45a8121d457b416c95d16b7eea06ce96w.jpg" alt="影之诗">
+                <span class="newname">17:55 第41话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20200079" class="cell_imform_name">影之诗</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">Shadowverse</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2020-04-07</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">奇幻 热血 战斗</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">ZEXCS</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">电视动画《影之诗》改编自Cygames开发的同名卡牌游戏，2019年10月宣布动画决定化，由ZEXCS负责动画制作，2020年4月播出、
+故事发生在久远的时代，在遍地纷争的洪荒世界里，一棵充满了神秘气息的大树突然伫立在世人面前，引发了惊天地震，让饱受战乱的人民愈发凄惨。于是，不明真相的人们将其称之为“天启之树”。然而，睿智的长者们知道，那是引导人类走向终焉的光芒，也是一个前往新世界的大门。当世界被黑暗完全覆盖之时，传说中就是异世大门开启的瞬间。</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20200079">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20200079">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff">
+            <a href="/detail/20210079" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="https://p.pstatp.com/origin/137a20001abc4df416915" alt="死神少爷与黑女仆">
+                <span class="newname">PV</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20210079" class="cell_imform_name">死神少爷与黑女仆</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">死神坊ちゃんと黒メイド</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">未播放</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">イノウエ</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">奇幻 恋爱</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">J.C.STAFF</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">"在远离城镇的森林中，耸立着静悄悄的大宅邸。里面住着“死神”——某一天被魔女施加“碰触到的东西全部死掉”的诅咒，而受到周围排斥的贵族少爷。 他现在最伤脑筋的事情，就是自己手下的女仆爱丽丝对她的反向性骚扰！少爷对她很在意。虽然觉得反向性骚扰很开心……但又不能去碰爱丽丝！爱丽丝似乎也对少爷有意思，但是少爷却连她的手都没法牵。两人的纯爱能够最终修成正果吗！？</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20210079">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20210079">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff2">
+            <a href="/detail/20210078" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="https://p.pstatp.com/origin/138070002a10d2e684656" alt="如果这叫爱情感觉会很恶心">
+                <span class="newname">PV</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20210078" class="cell_imform_name">如果这叫爱情感觉会很恶心</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">恋と呼ぶには気持ち悪い</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-04</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">未播放</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">もぐす</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">校园 恋爱</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">NOMAD</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">电视动画《这如果叫作爱情感觉会很恶心》改编自もぐす创作的同名漫画，于2020年1月21日宣布动画化的决定 [1]  。由Nomad负责制作，2021年春放送。
+女主人公有马一花是一名普通的高中生。一天她偶遇了一名通勤路上突然身体不适的上班族天草亮。心地善良的一花毫不吝啬的将自己的便当送给了他。天草亮被女孩的纯真温柔所打动，瞬间坠入了爱河。于是对有马一花展开了强烈的恋爱攻势。精英上班族×普通宅女高中生的恋爱喜剧就此开幕！</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20210078">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20210078">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff">
+            <a href="/detail/20200218" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H5efdac11a387420f98771bc6786a759cC.jpg" alt="WAVE!!">
+                <span class="newname">02:00 第4话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20200218" class="cell_imform_name">WAVE!!</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">WAVE!!</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">来冲浪吧！！美少年！！</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-11</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">MAGES.</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">运动 女性向</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">旭Production</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">只要在海上，我们就能获得自由！正如字面所示，巨大的海浪一年到头不断冲刷着海岸，在这样的茨城县大洗海岸成长的正辉，遇到了王子一般的转学生翔，并接触了隔着一枚板子与地球对峙的究极运动·冲浪。这是，被乘浪的魅力吸引的少年们，不会结束的故事的开端。</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20200218">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20200218">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff2">
+            <a href="/detail/20200265" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/Ha5ce618ba1d84db9b5add5dadd0978779.jpg" alt="阿松 第三季">
+                <span class="newname">01:30 第17话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20200265" class="cell_imform_name">阿松 第三季</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">おそ松さん 第3期</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2020-10-12</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">赤塚不二夫</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">搞笑 奇幻</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">小丑社</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">2015年，作为赤冢不二夫诞辰80周年纪念作品，
+以赤冢不二夫的名作搞笑漫画《小松君》为原作，
+《阿松》是一部描写6个孩子长大成人的动画片。
+过了20岁还在塔兹做neet的童贞。描写了松野家的6个孩子的日常生活，引起了社会现象。
+那之后5年1。
+TV动画第2期，
+经过了剧场版《阿松》，期待已久的TV动画第3期将于2020年10月开播！
+陌生的6个孩子们，
+现在作品也是各种各样错误的方向大胡闹!?并且，松野家也会有新的变化…？</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20200265">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20200265">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff">
+            <a href="/detail/20210013" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H5790b3fb24c94ea1a6e06b514c8e4bbbn.jpg" alt="碧蓝航线 微速前进">
+                <span class="newname">00:20 第4集</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20210013" class="cell_imform_name">碧蓝航线 微速前进</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">アズールレーン びそくぜんしんっ！</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">碧蓝航线 微速前行</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-11</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">暂无</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">搞笑 科幻 百合 日常</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">Yostar Pictures / studio CANDYBOX</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">本作为大家描述在母港里生活的各位舰船的日常生活。一句话剧情
+这是个冠上舰船名称的少女们所生活的世界，而且与「现在」的世界有点不同。她们隶属于许多势力同心协力组成的联合组织「碧蓝航线」。舰船们都在设置于母港里的「学园」生活。主角标枪、绫波、Z23与拉菲，在这个与不同阵营的舰船们一起生活。每个阵营的每个舰船，个性都不太一样、身材也都不太一样，而且都很独特，她们在「碧蓝航线」会编织出什么样的故事呢？</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20210013">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20210013">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff2">
+            <a href="/detail/20200077" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H72fee9e602d448f5867bed17ff90ebf3e.jpg" alt="厨神小当家 第二季">
+                <span class="newname">00:10 第4话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20200077" class="cell_imform_name">厨神小当家 第二季</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">真・中華一番！ 続編</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">厨神小当家 续篇</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-11</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">小川悦司</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">竞技 励志 童年 美食</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">NAS</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">电视动画《厨神小当家》改编自小川悦司著作的漫画《中华小当家》，由杰外动漫企划、NAS和Production I.G负责动画制作，于2019年秋季播出。 十九世纪的中国。主人公刘昴星通过了被认为是中国最高点的厨师资格“特级厨师考试”，成为史上最年轻的“特级厨师”。 在师傅周瑜的提议下，阿昴为了开阔厨师的视野，和同伴四郎还有周梅丽一起游览了中国西南方。其后回到广州“阳泉酒家”的阿昂，下定决心要与企图“用料理支配人”的“黑暗料理界”作斗争。 在这种情况下，他得知了据说是守护着中国料理界的八件“传说厨具”的秘密。过去，阿昴的母亲陈邦铃祈求千万人的幸福，与“暗黑料理界”展开过激烈的战斗。继承母亲的遗志，从“黑暗料理界”的手中守护散落在中国大陆各地的“传说厨具”，阿昴与四名同伴一起踏上壮大的旅程——</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20200077">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20200077">在线播放</a></div>
+            </div>
+        </div>
+		
+        <div class="cell blockdiff">
+            <a href="/detail/20200147" class="cell_poster">
+                <img referrerpolicy="no-referrer" width="150px" height="208px" src="//sc02.alicdn.com/kf/H65d1deb4bee7431da0cd5d3afb152d5at.jpg" alt="里世界郊游">
+                <span class="newname">23:30 第4话</span></a>
+            <div class="cell_imform">
+                <div>
+                    <a href="/detail/20200147" class="cell_imform_name">里世界郊游</a></div>
+                <div class="cell_imform_kvs">
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">动画种类：</span>
+                        <span class="cell_imform_value">TV</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原版名称：</span>
+                        <span class="cell_imform_value">裏世界ピクニック</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">其他名称：</span>
+                        <span class="cell_imform_value">OTHERSIDE PICNIC</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">首播时间：</span>
+                        <span class="cell_imform_value">2021-01-04</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">播放状态：</span>
+                        <span class="cell_imform_value">连载</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">原作：</span>
+                        <span class="cell_imform_value">宮澤伊織</span></div>
+                    <br>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">剧情类型：</span>
+                        <span class="cell_imform_value">奇幻 百合 冒险</span></div>
+                    <div class="cell_imform_kv">
+                        <span class="cell_imform_tag">制作公司：</span>
+                        <span class="cell_imform_value">LIDENFILMS / FelixFilm</span></div>
+                    <div class="cell_imform_kv cell_imform_kv_desc">
+                        <span class="cell_imform_tag">简介：</span>
+                        <div class="cell_imform_desc">电视动画《里世界郊游》改编自著作的同名小说，由LIDENFILMS和FelixFilm联合制作。
+本作讲述纸越空鱼、仁科鸟子在一些网络怪谈“水银怪”、“八尺大人”、“如月车站”真实存在的“里世界”中探险的怪异求生故事。小说已经刊行4卷，在月刊少年ガンガン（SQUARE・ENIX）上连载由水野英多绘制的漫画版。
+动画的声优阵容为，花守由美里为纸越空鱼配音，茅野爱衣为仁科鸟子配音。佐藤卓哉任监督和系列构成，FelixFilm负责动画制作，动画的概念视觉图解禁。</div></div>
+                </div>
+                <div class="cell_imform_btns">
+                    <a class="nbutton2 cell_res_button" href="/detail/20200147">资源详情</a>
+                    <a class="nbutton2 cell_res_button" href="/play/20200147">在线播放</a></div>
+            </div>
+        </div>
+		
+          </div>
+        </div>
+        <div class="baseblock">
+          <div class="blockcontent">
+            <span id="result_count" class="asciifont">2838纪录</span>
+            <div style="text-align: center; line-height: 36px;">
+              
+			<li><a class="pbutton pbutton_current asciifont" href="javascript:void(0);">首页</a></li>
+			
+			<li><a class="pbutton pbutton_current asciifont" href="javascript:void(0);">1</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/catalog/all-all-all-all-all-time-2">2</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/catalog/all-all-all-all-all-time-3">3</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/catalog/all-all-all-all-all-time-4">4</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/catalog/all-all-all-all-all-time-5">5</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/catalog/all-all-all-all-all-time-6">6</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/catalog/all-all-all-all-all-time-2">下一页</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/catalog/all-all-all-all-all-time-119">尾页</a></li>
+			
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer id="footer">
+        <div id="footer_container"></div>
+      </footer>
+    </div>
+    <script>var _hmt = _hmt || []; (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?7fdef555dc32f7d31fadd14999021b7b";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();</script>
+  </body>
+
+</html>
+

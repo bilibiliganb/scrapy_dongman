@@ -1,0 +1,729 @@
+
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>全部动画排行榜 - AGE动漫</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="keywords" content="动漫排行,AGE动漫">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsjinfu.com/age/static/css/common.css?ver=202101262059">
+    <link type="text/css" rel="stylesheet" href="https://cdn.jsjinfu.com/age/static/css/rank.css?ver=202101262059">
+    <script type="text/javascript" src="https://cdn.jsjinfu.com/age/static/js/history.js?ver=202101262059"></script>
+    
+    <!-- overload -->
+  </head>
+  
+  <body>
+    <div id="root">
+      <div id="top">
+        <div id="logo">
+          <a href="/" title="AGE动漫">AGE动漫</a></div>
+        <div class="loginout">
+          <span class="svg_title svg_title_user"></span>
+          <a class="loginout_btn2" href="/accounts/profile/">获取中...</a>
+
+          <script>
+              __html_set_username();
+          </script>
+
+        </div>
+      </div>
+      <header id="nav">
+        <a class="nav_button " href="/">首页</a>
+        <a class="nav_button " href="/catalog/all-all-all-all-all-time-1">目录</a>
+        <a class="nav_button " href="/recommend">每日推荐</a>
+        <a class="nav_button " href="/update">最近更新</a>
+        <a class="nav_button  nav_button_current " href="/rank">排行榜</a>
+        <form id="top_search_from" class="search_form" action="/search" method="get" onsubmit="return on_top_search_form();">
+          <input id="top_search_input" class="search_input" name="query" wrap="SOFT" spellcheck="false" autocapitalize="off" autocomplete="off" autocorrect="off" placeholder="输入关键字" value=""></input>
+          <input class="search_submit" class="" type="submit" value="">
+          <input type="hidden" name="page" value="1"></form>
+
+        <script type="text/javascript">function on_top_search_form() {
+            var value = document.getElementById("top_search_input").value;
+            if (value == null || value == "") {
+              alert("请输入搜索关键字");
+              return false;
+            }
+          }
+          var top_search_input = document.getElementById("top_search_input");
+          function onfocus() {
+            top_search_input.classList.add("search_input_ex");
+          }
+          function onfocusout() {
+            top_search_input.classList.remove("search_input_ex");
+          }
+          if (top_search_input.addEventListener) {
+            top_search_input.addEventListener('focus', onfocus);
+            top_search_input.addEventListener('focusout', onfocusout);
+          } else {
+            top_search_input.onfocus = onfocus;
+            top_search_input.onfocusout = onfocusout;
+          }</script>
+      </header>
+      <div id="container">
+        <div class="spaceblock1"></div>
+        <div class="div_left baseblock">
+          <div class="blockcontent">
+            <div class="baseblock2">
+              <div class="blocktitle" style="">排行分类</div>
+              <div class="blockcontent" style="padding: 0px;">
+                <div class="baseblock">
+                  <div class="blocktitlexx" style="">
+                    <a class="rank_tag rank_tag_current " href="/rank?tag=all">所有动画播放排行</a></div>
+                  <div class="blocktitlexx" style="">
+                    <a id="tagyears" href="javascript:;" onclick="oncatsw(this);">
+                      <span class="openorclose">+</span>
+                      <span class="rank_tag">分类动画播放排行</span></a>
+                  </div>
+                  <ul id="cats" class="blockcontent" style="padding-left: 44px;" hidden="hidden">
+                    
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2021">2021</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2020">2020</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2019">2019</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2018">2018</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2017">2017</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2016">2016</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2015">2015</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2014">2014</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2013">2013</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2012">2012</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2011">2011</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2010">2010</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2009">2009</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2008">2008</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2007">2007</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2006">2006</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2005">2005</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2004">2004</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2003">2003</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2002">2002</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2001">2001</a></li>
+		
+		<li class="rankyear asciifont"><a class="rank_tag_value " href="/rank?tag=catyear&value=2000">2000以前</a></li>
+		
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="div_right baseblock">
+          <div class="blockcontent">
+            <div class="baseblock2">
+              <div class="blocktitle">全部动画排行榜</div></div>
+            <div class="baseblock">
+              <div class="blockcontent div_right_r_3">
+                <ul class="div_right_r">
+                  
+		<li class="rank_text">
+			<span class="rank_text_idx rank_text_idx_top asciifont">1</span>
+			<a href="/detail/20000001">
+				<span class="rank_text_name">海贼王</span></a>
+			<span class="rank_value asciifont">9177235</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx rank_text_idx_top asciifont">2</span>
+			<a href="/detail/20190083">
+				<span class="rank_text_name">进击的巨人 第三季 Part.2</span></a>
+			<span class="rank_value asciifont">8959294</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx rank_text_idx_top asciifont">3</span>
+			<a href="/detail/20190086">
+				<span class="rank_text_name">一拳超人 第二季</span></a>
+			<span class="rank_value asciifont">7864599</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx rank_text_idx_top asciifont">4</span>
+			<a href="/detail/20140136">
+				<span class="rank_text_name">JOJO的奇妙冒险 第三部(星尘斗士+埃及篇)</span></a>
+			<span class="rank_value asciifont">6342381</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx rank_text_idx_top asciifont">5</span>
+			<a href="/detail/20190026">
+				<span class="rank_text_name">鬼灭之刃</span></a>
+			<span class="rank_value asciifont">5974503</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx rank_text_idx_top asciifont">6</span>
+			<a href="/detail/20120075">
+				<span class="rank_text_name">JOJO的奇妙冒险 第一二部(幻影之血+战斗潮流)</span></a>
+			<span class="rank_value asciifont">5848503</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx rank_text_idx_top asciifont">7</span>
+			<a href="/detail/20130023">
+				<span class="rank_text_name">进击的巨人</span></a>
+			<span class="rank_value asciifont">5309551</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx rank_text_idx_top asciifont">8</span>
+			<a href="/detail/20180062">
+				<span class="rank_text_name">斗罗大陆</span></a>
+			<span class="rank_value asciifont">4570364</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx rank_text_idx_top asciifont">9</span>
+			<a href="/detail/20180179">
+				<span class="rank_text_name">进击的巨人 第三季</span></a>
+			<span class="rank_value asciifont">4323187</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx rank_text_idx_top asciifont">10</span>
+			<a href="/detail/20160073">
+				<span class="rank_text_name">JOJO的奇妙冒险 第四部(不灭钻石)</span></a>
+			<span class="rank_value asciifont">3856666</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">11</span>
+			<a href="/detail/20170017">
+				<span class="rank_text_name">进击的巨人 第二季</span></a>
+			<span class="rank_value asciifont">3429721</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">12</span>
+			<a href="/detail/20190092">
+				<span class="rank_text_name">这个勇者明明超强却过分慎重</span></a>
+			<span class="rank_value asciifont">3425888</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">13</span>
+			<a href="/detail/20180253">
+				<span class="rank_text_name">JOJO的奇妙冒险 第五部(黄金之风)</span></a>
+			<span class="rank_value asciifont">3116747</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">14</span>
+			<a href="/detail/20170082">
+				<span class="rank_text_name">黑色五叶草</span></a>
+			<span class="rank_value asciifont">2835301</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">15</span>
+			<a href="/detail/20190125">
+				<span class="rank_text_name">新石纪</span></a>
+			<span class="rank_value asciifont">2591446</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">16</span>
+			<a href="/detail/20200004">
+				<span class="rank_text_name">进击的巨人 最终季</span></a>
+			<span class="rank_value asciifont">2550148</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">17</span>
+			<a href="/detail/20150058">
+				<span class="rank_text_name">一拳超人</span></a>
+			<span class="rank_value asciifont">2495895</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">18</span>
+			<a href="/detail/20000005">
+				<span class="rank_text_name">名侦探柯南</span></a>
+			<span class="rank_value asciifont">2278378</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">19</span>
+			<a href="/detail/20180190">
+				<span class="rank_text_name">平凡职业成就世界最强</span></a>
+			<span class="rank_value asciifont">2246065</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">20</span>
+			<a href="/detail/20190167">
+				<span class="rank_text_name">我的英雄学院 第四季</span></a>
+			<span class="rank_value asciifont">2060448</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">21</span>
+			<a href="/detail/20190030">
+				<span class="rank_text_name">盾之勇者成名录</span></a>
+			<span class="rank_value asciifont">1969682</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">22</span>
+			<a href="/detail/20200096">
+				<span class="rank_text_name">咒术回战</span></a>
+			<span class="rank_value asciifont">1918748</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">23</span>
+			<a href="/detail/20200006">
+				<span class="rank_text_name">鬼灭之刃剧场版 无限列车篇</span></a>
+			<span class="rank_value asciifont">1882706</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">24</span>
+			<a href="/detail/20170172">
+				<span class="rank_text_name">博人传 火影忍者新时代</span></a>
+			<span class="rank_value asciifont">1819013</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">25</span>
+			<a href="/detail/20060011">
+				<span class="rank_text_name">银魂 (001-201)</span></a>
+			<span class="rank_value asciifont">1803078</span>
+		</li>	
+		
+                </ul>
+
+                <ul class="div_right_r">
+                  
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">26</span>
+			<a href="/detail/20190181">
+				<span class="rank_text_name">刀剑神域 Alicization篇 War of Underworld</span></a>
+			<span class="rank_value asciifont">1755175</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">27</span>
+			<a href="/detail/20180220">
+				<span class="rank_text_name">关于我转生变成史莱姆这档事</span></a>
+			<span class="rank_value asciifont">1741601</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">28</span>
+			<a href="/detail/20190064">
+				<span class="rank_text_name">为什么老师会在这里！？</span></a>
+			<span class="rank_value asciifont">1639775</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">29</span>
+			<a href="/detail/20190152">
+				<span class="rank_text_name">七原罪 第三季(诸神的逆鳞)</span></a>
+			<span class="rank_value asciifont">1623837</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">30</span>
+			<a href="/detail/20190008">
+				<span class="rank_text_name">Fate/Grand Order 绝对魔兽战线 巴比伦尼亚</span></a>
+			<span class="rank_value asciifont">1543642</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">31</span>
+			<a href="/detail/20200035">
+				<span class="rank_text_name">异种族风俗娘评鉴指南</span></a>
+			<span class="rank_value asciifont">1478194</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">32</span>
+			<a href="/detail/20190070">
+				<span class="rank_text_name">异世界四重奏</span></a>
+			<span class="rank_value asciifont">1422797</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">33</span>
+			<a href="/detail/20190166">
+				<span class="rank_text_name">食戟之灵 第四季</span></a>
+			<span class="rank_value asciifont">1414322</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">34</span>
+			<a href="/detail/20090024">
+				<span class="rank_text_name">妖精的尾巴</span></a>
+			<span class="rank_value asciifont">1364958</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">35</span>
+			<a href="/detail/20180256">
+				<span class="rank_text_name">妖精的尾巴 最终季</span></a>
+			<span class="rank_value asciifont">1341861</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">36</span>
+			<a href="/detail/20140073">
+				<span class="rank_text_name">魔法科高校的劣等生</span></a>
+			<span class="rank_value asciifont">1324345</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">37</span>
+			<a href="/detail/20180246">
+				<span class="rank_text_name">刀剑神域 Alicization篇</span></a>
+			<span class="rank_value asciifont">1304974</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">38</span>
+			<a href="/detail/20190156">
+				<span class="rank_text_name">只要长得可爱，即使是变态你也喜欢吗？</span></a>
+			<span class="rank_value asciifont">1287855</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">39</span>
+			<a href="/detail/20140086">
+				<span class="rank_text_name">刀剑神域 第二季</span></a>
+			<span class="rank_value asciifont">1275229</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">40</span>
+			<a href="/detail/20190176">
+				<span class="rank_text_name">炎炎消防队</span></a>
+			<span class="rank_value asciifont">1267498</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">41</span>
+			<a href="/detail/20190208">
+				<span class="rank_text_name">刺客守则</span></a>
+			<span class="rank_value asciifont">1244157</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">42</span>
+			<a href="/detail/20190183">
+				<span class="rank_text_name">旗扬！兽道</span></a>
+			<span class="rank_value asciifont">1239634</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">43</span>
+			<a href="/detail/20200129">
+				<span class="rank_text_name">魔王学院的不适合者</span></a>
+			<span class="rank_value asciifont">1219949</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">44</span>
+			<a href="/detail/20180044">
+				<span class="rank_text_name">DARLING in the FRANXX</span></a>
+			<span class="rank_value asciifont">1211771</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">45</span>
+			<a href="/detail/20100003">
+				<span class="rank_text_name">缘之空</span></a>
+			<span class="rank_value asciifont">1177413</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">46</span>
+			<a href="/detail/20190042">
+				<span class="rank_text_name">辉夜大小姐想让我告白～天才们的恋爱头脑战～</span></a>
+			<span class="rank_value asciifont">1173156</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">47</span>
+			<a href="/detail/20190202">
+				<span class="rank_text_name">入间同学入魔了</span></a>
+			<span class="rank_value asciifont">1160218</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">48</span>
+			<a href="/detail/20160083">
+				<span class="rank_text_name">为美好的世界献上祝福！</span></a>
+			<span class="rank_value asciifont">1141345</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">49</span>
+			<a href="/detail/20190035">
+				<span class="rank_text_name">家有女友</span></a>
+			<span class="rank_value asciifont">1126904</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">50</span>
+			<a href="/detail/20190032">
+				<span class="rank_text_name">多罗罗</span></a>
+			<span class="rank_value asciifont">1125084</span>
+		</li>	
+		
+                </ul>
+
+                <ul class="div_right_r">
+                  
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">51</span>
+			<a href="/detail/20140016">
+				<span class="rank_text_name">寄生兽 生命的准则</span></a>
+			<span class="rank_value asciifont">1112754</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">52</span>
+			<a href="/detail/20190213">
+				<span class="rank_text_name">战×恋</span></a>
+			<span class="rank_value asciifont">1072376</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">53</span>
+			<a href="/detail/20200059">
+				<span class="rank_text_name">回复术士的重启人生</span></a>
+			<span class="rank_value asciifont">1060130</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">54</span>
+			<a href="/detail/20190122">
+				<span class="rank_text_name">超人高中生们即便在异世界也能从容生存！</span></a>
+			<span class="rank_value asciifont">1056873</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">55</span>
+			<a href="/detail/20190221">
+				<span class="rank_text_name">BEASTARS</span></a>
+			<span class="rank_value asciifont">1031173</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">56</span>
+			<a href="/detail/20190127">
+				<span class="rank_text_name">Re：从零开始的异世界生活 第二季</span></a>
+			<span class="rank_value asciifont">1024585</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">57</span>
+			<a href="/detail/20200015">
+				<span class="rank_text_name">辉夜大小姐想让我告白～天才们的恋爱头脑战～ 第二季</span></a>
+			<span class="rank_value asciifont">1019517</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">58</span>
+			<a href="/detail/20190090">
+				<span class="rank_text_name">普通攻击是全体攻击而且能二次攻击的妈妈你喜欢吗？</span></a>
+			<span class="rank_value asciifont">1018192</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">59</span>
+			<a href="/detail/20180160">
+				<span class="rank_text_name">刃牙 (2018)</span></a>
+			<span class="rank_value asciifont">1004556</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">60</span>
+			<a href="/detail/20160134">
+				<span class="rank_text_name">文豪野犬</span></a>
+			<span class="rank_value asciifont">1001375</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">61</span>
+			<a href="/detail/20170004">
+				<span class="rank_text_name">为美好的世界献上祝福！ 第二季</span></a>
+			<span class="rank_value asciifont">1001296</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">62</span>
+			<a href="/detail/20190130">
+				<span class="rank_text_name">期待在地下城邂逅有错吗 第二季</span></a>
+			<span class="rank_value asciifont">984177</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">63</span>
+			<a href="/detail/20140032">
+				<span class="rank_text_name">东京喰种</span></a>
+			<span class="rank_value asciifont">963781</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">64</span>
+			<a href="/detail/20160005">
+				<span class="rank_text_name">Re：从零开始的异世界生活</span></a>
+			<span class="rank_value asciifont">950064</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">65</span>
+			<a href="/detail/20180011">
+				<span class="rank_text_name">七原罪 第二季(戒律的复活)</span></a>
+			<span class="rank_value asciifont">941108</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">66</span>
+			<a href="/detail/20180129">
+				<span class="rank_text_name">东京喰种:RE 第二季</span></a>
+			<span class="rank_value asciifont">925601</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">67</span>
+			<a href="/detail/20190276">
+				<span class="rank_text_name">假面骑士01</span></a>
+			<span class="rank_value asciifont">925019</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">68</span>
+			<a href="/detail/20190073">
+				<span class="rank_text_name">喜欢本大爷的竟然只有你一个？</span></a>
+			<span class="rank_value asciifont">913475</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">69</span>
+			<a href="/detail/20190112">
+				<span class="rank_text_name">淫乱的青酱不能学习</span></a>
+			<span class="rank_value asciifont">904046</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">70</span>
+			<a href="/detail/20190054">
+				<span class="rank_text_name">海盗战记</span></a>
+			<span class="rank_value asciifont">902158</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">71</span>
+			<a href="/detail/20190203">
+				<span class="rank_text_name">我不是说了能力要平均值么！</span></a>
+			<span class="rank_value asciifont">891093</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">72</span>
+			<a href="/detail/20190051">
+				<span class="rank_text_name">路人超能100 第二季</span></a>
+			<span class="rank_value asciifont">883895</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">73</span>
+			<a href="/detail/20180094">
+				<span class="rank_text_name">我的英雄学院 第三季</span></a>
+			<span class="rank_value asciifont">871280</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">74</span>
+			<a href="/detail/20190205">
+				<span class="rank_text_name">鸭子的天空</span></a>
+			<span class="rank_value asciifont">861076</span>
+		</li>	
+		
+		<li class="rank_text">
+			<span class="rank_text_idx  asciifont">75</span>
+			<a href="/detail/20180245">
+				<span class="rank_text_name">哥布林杀手</span></a>
+			<span class="rank_value asciifont">846600</span>
+		</li>	
+		
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+        <ul style="text-align: center; line-height: 36px;">
+          
+			<li><a class="pbutton pbutton_current asciifont" href="javascript:void(0);">首页</a></li>
+			
+			<li><a class="pbutton pbutton_current asciifont" href="javascript:void(0);">1</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/rank?tag=catyear&value=&page=2">2</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/rank?tag=catyear&value=&page=3">3</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/rank?tag=catyear&value=&page=4">4</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/rank?tag=catyear&value=&page=5">5</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/rank?tag=catyear&value=&page=6">6</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/rank?tag=catyear&value=&page=2">下一页</a></li>
+			
+			<li><a class="pbutton  asciifont" href="/rank?tag=catyear&value=&page=38">尾页</a></li>
+			
+        </ul>
+        <div class="spaceblock1"></div>
+      </div>
+      <footer id="footer">
+        <div id="footer_container"></div>
+      </footer>
+      <script type="text/javascript">function oncatsw(obj) {
+          var cats = document.getElementById('cats');
+          cats.isopen = !cats.isopen;
+          if (cats.isopen) {
+            cats.hidden = null;
+            obj.querySelector('.openorclose').innerText = '-';
+          } else {
+            cats.hidden = 'hidden';
+            obj.querySelector('.openorclose').innerText = '+';
+          }
+        }
+
+        oncatsw(document.getElementById('tagyears'));</script>
+    </div>
+    <script>var _hmt = _hmt || []; (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?7fdef555dc32f7d31fadd14999021b7b";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+      })();</script>
+  </body>
+
+</html>
+
+
